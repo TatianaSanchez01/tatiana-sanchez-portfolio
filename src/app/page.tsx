@@ -13,24 +13,28 @@ export default function Home() {
                     <div className="w-1/2 flex flex-col items-center self-center ">
                         <AnimatedText
                             text="Good design adds value faster than it adds cost."
-                            className="!text-6xl !text-left"
+                            className="!text-6xl !text-left !text-secondary"
                         />
                         <p className="my-4 text-base font-medium">
-                            A skilled computer science student. I am focus on
-                            software and web development and dedicated to
-                            turningf ideas into innovative applications. You can
-                            explore my latest projects showcasing my expertise
-                            in{" "}
+                            Hi there! I&apos;m Tatiana, a passionate computer
+                            science student at Universidad de Antioquia,
+                            Colombia. My focus is on software and web
+                            development, and I thrive on transforming ideas into
+                            innovative applications. I&apos;m not just about the
+                            code, though; I&apos;m equally fascinated by
+                            crafting dynamic and interactive user experiences
+                            that resonate with people.
                         </p>
+
                         <div className="flex items-center self-start mt-2">
                             <Link
                                 href="/TatianaSanchez_CV.pdf"
                                 target="_blank"
-                                className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark transition-all duration-300 ease-in-out"
+                                className="flex items-center bg-secondary text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-secondary border-2 border-solid border-transparent hover:border-secondary transition-all duration-300 ease-in-out"
                                 download={true}
                             >
                                 Resume
-                                <LinkIcon className="w-6 ml-1" />
+                                <LinkIcon className="w-6 ml-1 hover:text-secondary" />
                             </Link>
                             <Link
                                 href="mailto:tatiana.sanchez.sanin@gmail.com"
