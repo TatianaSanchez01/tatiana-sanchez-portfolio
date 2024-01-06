@@ -2,6 +2,8 @@ import React from "react";
 import Layout from "../components/Layout";
 import AboutComponent from "../components/About";
 import Skills from "../components/Skills";
+import Experience from "../components/Experience";
+import Education from "../components/Education";
 
 const About = () => {
     return (
@@ -9,6 +11,8 @@ const About = () => {
             <Layout className="pt-16">
                 <AboutComponent />
                 <Skills />
+                <Experience/>
+                <Education/>
             </Layout>
         </main>
     );

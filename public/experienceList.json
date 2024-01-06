@@ -1,0 +1,51 @@
+[
+    {
+        "position": "Godmother of new students",
+        "company": "Antivirus para la Deserción Foundation",
+        "time": "November 2020 - Now",
+        "address": "Remote",
+        "description":
+            "As a mentor in the 'Entre Compas' program, my main objective is to provide support and guidance to new students in the Systems Engineering program, sharing the knowledge and skills I have acquired throughout my university journey. I understand that university life can present challenges in terms of time management, balancing studies with other activities, and academic planning. I assist students in setting clear goals, managing their time effectively, and finding the right balance in their student life. My aim is to provide them with the necessary tools and strategies to succeed both in their studies and in their personal development."
+    },
+    {
+        "position": "Administrative Assistant SEA",
+        "company": "Universidad de Antioquia",
+        "time": "September 2022 - June 2023",
+        "address": "El Carmen de Viboral - Antioquia",
+        "description":
+            "Participation as Extension Administrative Assistant of the School of Languages of the University of Antioquia. Doing support activities such as customer service, database management data and working collaboratively with people involved in the area."
+    },
+    {
+        "position": "Front-end Developer",
+        "company": "Id for Ideas",
+        "time": "July 2023 - September 2023",
+        "address": "Remote",
+        "description":
+            "In my role as a Frontend Developer on a banking application development project, I collaborated in the creation of web applications using ReactJS, JavaScript, and Tailwind CSS. This experience in the banking project allowed me to develop key skills, such as Frontend development with ReactJS. Furthermore, it improved my ability to work in multidisciplinary teams and adapt to changing project requirements."
+    },
+
+    {
+        "position": "Front-end Developer",
+        "company": "Id for Ideas",
+        "time": "September 2023 - Now",
+        "address": "Remote",
+        "description":
+            "As a Frontend Developer, I had the privilege of being part of a highly collaborative team that utilized cutting-edge technologies to develop an innovative classroom session assistance project. During my time in this role, I honed my skills in using Next.js, Tailwind CSS, and TypeScript, and put my knowledge into practice by consuming an API to create a unique solution."
+    },
+    {
+        "position": "Front-end Developer",
+        "company": "No Country",
+        "time": "July 2023 - August 2023",
+        "address": "Remote",
+        "description":
+            "As a Frontend Developer, my primary responsibility was to participate in the development of a sports space reservation project in collaboration with a multidisciplinary team. Over a 5-week period, I utilized a variety of technologies and skills to contribute to the project's success, such as: Frontend development with Next.js, Tailwind CSS, and TypeScript, integration of an API for the web application, teamwork and effective collaboration, assertive and efcient communication, project management using the SCRUM framework."
+    },
+    {
+        "position": "Programming Mentor",
+        "company": "Antivirus para la Deserción Foundation",
+        "time": "August 2023 - Now",
+        "address": "Remote",
+        "description":
+            "📚 Subjects: HTML, CSS, JavaScript, SQL and NoSQL Databases, Algorithms and Control Structures, Java SE, Git/GitHub.\n\nWhat do we do? 🌐 In this exciting tutoring program, I have the privilege of supporting students at EAFIT University on their programming learning journey. My goal is to help clarify doubts, foster understanding of key concepts, and provide practical guidance in a variety of languages and technologies fundamental in the programming world.\n\nHow do I help? 💡 My focus is on clarity and accessibility. I work closely with students to identify their challenges and design effective solutions. From problem-solving in algorithms to creating impressive web projects, I'm here to guide and support at every step of the way."
+    }
+]

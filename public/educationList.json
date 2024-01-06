@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Computer Science Engineer",
+        "institution": "Universidad de Antioquia",
+        "time": "June 2019 - Now",
+        "description":
+            "Advanced ninth-semester student with a strong inclination towards software development and web development. Procient in backend development using Java with SpringBoot, Python, and PHP, as well as frontend development skills with Angular and React.\n\nMy expertise extends to implementing tests and DevOps practices, alongside version control using Git and Github."
+    },
+    {
+        "title": "Backend Developer",
+        "institution": "Oracle Next Education & Alura",
+        "time": "March 2023 - October 2023",
+        "description":
+            "Oracle Next Education certicate received in October 2023, awarded by Oracle in collaboration with Alura for completing the back-end especialization with 331 hours and 6 courses required. Demonstrating proficiency in Java, problem-solving, algorithm usage, and control structures, as well as programming with SpringBoot,Hibernate, JPA, and Swagger."
+    },
+    {
+        "title": "Foreign Language Diploma - English C1",
+        "institution": "Universidad Católica de Oriente",
+        "time": "June 2017 - April 2018",
+        "description":
+            "Diploma in Foreign Language - English received in May 2018, granted by the Catholic University of the East with certification of completion of required hours, between 700 and 800, for level C1 of the Common European Framework."
+    },
+    {
+        "title": "Google Cloud Computing Foundation",
+        "institution": "Google & Universidad de Antioquia",
+        "time": "April 2023",
+        "description":
+            "Google Cloud Computing Foundations certicate received in April 2023, awarded by Google Cloud Computing Foundations Academy in collaboration with the University of Antioquia, completion of 40 hours and 4 required courses."
+    }
+    
+]
