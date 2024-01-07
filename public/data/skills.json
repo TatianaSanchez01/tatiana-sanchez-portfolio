@@ -1,0 +1,114 @@
+[
+    
+    {
+        "language" : "HTML",
+        "level": "90%",
+        "type": "language"
+    },
+    {
+        "language" : "CSS",
+        "level": "80%",
+        "type": "language"
+    },
+    {
+        "language" : "JavaScript",
+        "level": "75%",
+        "type": "language"
+    },
+    {
+        "language" : "React",
+        "level": "55%",
+        "type": "framework"
+    },
+    {
+        "language" : "Angular",
+        "level": "30%",
+        "type": "framework"
+    },
+    {
+        "language" : "NextJS",
+        "level": "40%",
+        "type": "framework"
+    },
+    {
+        "language" : "Python",
+        "level": "55%",
+        "type": "language"
+    },
+    {
+        "language" : "Java",
+        "level": "85%",
+        "type": "language"
+    },
+    {
+        "language" : "SpringBoot",
+        "level": "50%",
+        "type": "framework"
+    },
+    {
+        "language" : "PHP",
+        "level": "45%",
+        "type": "language"
+    },
+    {
+        "language" : "MySQL",
+        "level": "60%",
+        "type": "software"
+    },
+    {
+        "language" : "PosgresSQL",
+        "level": "40%",
+        "type": "software"
+    },
+    {
+        "language" : "MongoDB",
+        "level": "40%",
+        "type": "software"
+    },
+    {
+        "language" : "TailwindCSS",
+        "level": "75%",
+        "type": "framework"
+    },
+    {
+        "language" : "Bootstrap",
+        "level": "80%",
+        "type": "framework"
+    },
+    {
+        "language" : "Figma",
+        "level": "60%",
+        "type": "tool"
+    },
+    {
+        "language" : "Git",
+        "level": "80%",
+        "type": "software"
+    },
+    {
+        "language" : "GitHub",
+        "level": "80%",
+        "type": "tool"
+    },
+    {
+        "language" : "VSCode",
+        "level": "90%",
+        "type": "tool"
+    },
+    {
+        "language" : "IntelliJ",
+        "level": "90%",
+        "type": "tool"
+    },
+    {
+        "language" : "Scrum",
+        "level": "85%",
+        "type": "software"
+    },
+    {
+        "language" : "Jira",
+        "level": "75%",
+        "type": "tool"
+    }
+    
+]
