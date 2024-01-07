@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
-import  experienceList  from "../../../public/experienceList.json";
+import experienceList  from "../../../public/data/experienceList.json";
 import ListIcon from "./ListIcon";
 const Details = ({
     position,
