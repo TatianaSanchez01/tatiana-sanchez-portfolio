@@ -15,7 +15,7 @@ const FeaturedProject = ({
     link,
     github,
 }: {
-    category: Category[];
+    category: string[];
     technologies: string[];
     title: string;
     summary: string;
