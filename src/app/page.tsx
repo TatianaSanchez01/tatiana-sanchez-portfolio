@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import Layout from "./components/Layout";
-import AnimatedText from "./components/AnimatedText";
+import Layout from "./components/utils/Layout";
+import AnimatedText from "./components/utils/AnimatedText";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
-import { LinkIcon } from "./components/Icons";
+import { LinkIcon } from "./components/utils/Icons";
 
 export default function Home() {
     return (
@@ -50,6 +50,7 @@ export default function Home() {
                             src={profilePic}
                             alt=""
                             className="w-full h-auto"
+                            priority={true}
                         />
                     </div>
                 </div>

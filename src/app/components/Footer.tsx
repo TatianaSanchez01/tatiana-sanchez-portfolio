@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Layout from "./Layout";
+import Layout from "./utils/Layout";
 const Footer = () => {
     return (
         <footer className="w-full border-t-2 border-solid border-dark font-medium text-lg ">

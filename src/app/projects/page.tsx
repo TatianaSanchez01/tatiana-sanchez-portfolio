@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import Layout from "../components/Layout";
-import AnimatedText from "../components/AnimatedText";
+import Layout from "../components/utils/Layout";
+import AnimatedText from "../components/utils/AnimatedText";
 import FeaturedProject, { Category } from "../components/ProjectCard";
 import { projectsList } from "../../../public/data/projectsList";
 import ProjectsNavbar from "../components/ProjectsNavbar";
@@ -39,7 +39,8 @@ function Projects() {
                 </p>
                 <nav className="w-full my-8 flex items-center justify-center text-lg font-medium">
                     <ProjectsNavbar
-                        handleFilterCategory={handleFilterCategory} active={active}
+                        handleFilterCategory={handleFilterCategory}
+                        active={active}
                     />
                 </nav>
                 <div className="grid grid-cols-12 gap-24 relative">

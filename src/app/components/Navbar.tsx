@@ -3,8 +3,8 @@ import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import Logo from "./Logo";
-import { LinkedinIcon, GithubIcon } from "./Icons";
+import Logo from "./utils/Logo";
+import { LinkedinIcon, GithubIcon } from "./utils/Icons";
 
 const CustomLink = ({
     href,

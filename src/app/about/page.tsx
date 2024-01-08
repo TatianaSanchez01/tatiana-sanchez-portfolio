@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../components/Layout";
+import Layout from "../components/utils/Layout";
 import AboutComponent from "../components/About";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
@@ -11,8 +11,8 @@ const About = () => {
             <Layout className="pt-16">
                 <AboutComponent />
                 <Skills />
-                <Experience/>
-                <Education/>
+                <Experience />
+                <Education />
             </Layout>
         </main>
     );

@@ -17,7 +17,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning={true}>
             <body
                 className={`${montserrat.className} bg-light w-full font-mont min-h-screen`}
             >

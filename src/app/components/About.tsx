@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AnimatedText from "../components/AnimatedText";
+import AnimatedText from "./utils/AnimatedText";
 import profilePic from "../../../public/images/profile/developer-pic-2.jpg";
 const AboutComponent = () => {
     return (
@@ -53,10 +53,10 @@ const AboutComponent = () => {
                         Skills and Expertise
                     </h2>
                     <p className="font-medium">
-                        I am highly motivated and results-oriented
-                        professional with a talent for creative problem-solving
-                        and teamwork. I thrive in environments where I can take
-                        initiative, tackle challenges head-on, and contribute to
+                        I am highly motivated and results-oriented professional
+                        with a talent for creative problem-solving and teamwork.
+                        I thrive in environments where I can take initiative,
+                        tackle challenges head-on, and contribute to
                         organizational goals. My strengths include:
                     </p>
 
@@ -77,6 +77,7 @@ const AboutComponent = () => {
                         src={profilePic}
                         alt="Tatiana"
                         className="w-full h-auto rounded-2xl"
+                        priority={true}
                     />
                 </div>
             </div>
