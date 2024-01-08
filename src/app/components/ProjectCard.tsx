@@ -27,6 +27,17 @@ const FeaturedProject = ({
     const [showDetail, setShowDetail] = useState(false);
     const cardRef = useRef(null);
 
+    useEffect(() => {
+        if (showDetail && cardRef.current) {
+            const offsetTop = (cardRef.current as HTMLElement).offsetTop;
+            const detailView = document.getElementById("detailView");
+
+            if (detailView) {
+                detailView.style.top = `${offsetTop}px`;
+            }
+        }
+    }, [showDetail]);
+
     return (
         <>
             <article
