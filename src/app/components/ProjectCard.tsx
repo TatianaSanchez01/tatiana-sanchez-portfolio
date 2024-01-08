@@ -107,7 +107,7 @@ const FeaturedProject = ({
                         </div>
                         <button
                             onClick={() => setShowDetail(false)}
-                            className="absolute top-0 right-10 rounded-full focus:outline-none "
+                            className="absolute top-10 right-10 rounded-full focus:outline-none "
                         >
                             <MdClose size={30} />
                         </button>
