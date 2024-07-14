@@ -19,7 +19,7 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning={true}>
             <body
-                className={`${montserrat.className} bg-light w-full font-mont min-h-screen`}
+                className={`${montserrat.className} bg-light w-full font-mont min-h-screen dark:bg-dark`}
             >
                 <Navbar />
                 {children}

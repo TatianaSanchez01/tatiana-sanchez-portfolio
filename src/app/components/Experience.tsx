@@ -28,14 +28,16 @@ const Details = ({
                 whileInView={{ y: 0 }}
                 transition={{ duration: 0.5, type: "spring" }}
             >
-                <h3 className="capitalize font-bold text-2xl text-dark">
+                <h3 className="capitalize font-bold text-2xl text-dark dark:text-light">
                     {position}&nbsp;
-                    <span className="text-secondary">@{company}</span>
+                    <span className="text-secondary dark:text-secondaryDark">
+                        @{company}
+                    </span>
                 </h3>
-                <span className="capitalize font-medium text-dark/75">
+                <span className="capitalize font-medium text-dark/75 dark:text-light/75">
                     {time} | {address}
                 </span>
-                <p className="whitespace-pre text-wrap font-medium w-full ">
+                <p className="whitespace-pre text-wrap font-medium w-full text-dark dark:text-light ">
                     {description}
                 </p>
             </motion.div>
@@ -53,13 +55,13 @@ const Experience = () => {
 
     return (
         <div className="my-64">
-            <h2 className="font-bold text-8xl mb-32 w-full text-center">
+            <h2 className="font-bold text-8xl mb-32 w-full text-center text-dark dark:text-light">
                 Experience
             </h2>
             <div ref={ref} className="w-[75%] mx-auto relative ">
                 <motion.div
                     style={{ scaleY: scrollYProgress }}
-                    className="absolute left-9 top-0 w-1 h-full bg-dark origin-top"
+                    className="absolute left-9 top-0 w-1 h-full bg-dark dark:bg-light origin-top"
                 />
                 <ul className="w-full flex flex-col items-start justify-between ml-4">
                     {experienceList.map((experienceItem, index) => {

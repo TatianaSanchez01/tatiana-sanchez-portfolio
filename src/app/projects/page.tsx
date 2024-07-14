@@ -27,8 +27,8 @@ function Projects() {
     return (
         <main className="w-full mb-16 flex flex-col items-center justify-center">
             <Layout className="pt-16">
-                <AnimatedText text="Projects" />
-                <p className="my-12 font-medium text-xl">
+                <AnimatedText text="Projects" className="text-secondary dark:text-secondaryDark" />
+                <p className="my-12 font-medium text-xl text-dark dark:text-light">
                     This section showcases a collection of my projects, each
                     demonstrating different skills and technologies. Whether
                     it&apos;s frontend, backend, or full-stack development,

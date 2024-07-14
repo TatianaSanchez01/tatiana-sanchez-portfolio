@@ -7,13 +7,13 @@ import { LinkIcon } from "./components/utils/Icons";
 
 export default function Home() {
     return (
-        <main className="flex items-center text-dark w-full min-h-screen">
+        <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
             <Layout className="pt-0">
                 <div className="flex items-center justify-between w-full">
                     <div className="w-1/2 flex flex-col items-center self-center ">
                         <AnimatedText
                             text="Good design adds value faster than it adds cost."
-                            className="!text-6xl !text-left !text-secondary"
+                            className="!text-6xl !text-left !text-secondary dark:!text-secondaryDark"
                         />
                         <p className="my-4 text-base font-medium">
                             Hi there! I&apos;m Tatiana, a passionate computer
@@ -30,16 +30,16 @@ export default function Home() {
                             <Link
                                 href="/TatianaSanchez_CV.pdf"
                                 target="_blank"
-                                className="flex items-center bg-secondary text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-secondary border-2 border-solid border-transparent hover:border-secondary transition-all duration-300 ease-in-out"
+                                className="flex items-center bg-secondary  dark:bg-secondaryDark text-light dark:text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light dark:hover:bg-dark hover:text-secondary dark:hover:text-secondaryDark border-2 border-solid border-transparent hover:border-secondary dark:hover:border-secondaryDark transition-all duration-300 ease-in-out"
                                 download={true}
                             >
                                 Resume
-                                <LinkIcon className="w-6 ml-1 hover:text-secondary" />
+                                <LinkIcon className="w-6 ml-1 hover:text-secondary dark:hover:text-secondaryDark" />
                             </Link>
                             <Link
                                 href="mailto:tatiana.sanchez.sanin@gmail.com"
                                 target="_blank"
-                                className="ml-12 text-lg font-medium capitalize text-dark hover:underline hover:underline-offset-2 transition-all duration-500 ease-in-out"
+                                className="ml-12 text-lg font-medium capitalize text-dark dark:text-light hover:underline hover:underline-offset-2 transition-all duration-500 ease-in-out"
                             >
                                 Contact
                             </Link>

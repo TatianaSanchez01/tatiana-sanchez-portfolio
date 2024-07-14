@@ -3,7 +3,7 @@ import Link from "next/link";
 import Layout from "./utils/Layout";
 const Footer = () => {
     return (
-        <footer className="w-full border-t-2 border-solid border-dark font-medium text-lg ">
+        <footer className="w-full border-t-2 border-solid border-dark dark:border-light font-medium text-lg text-dark dark:text-light ">
             <Layout className="py-10 flex items-center justify-between ">
                 <span>
                     {new Date().getFullYear()} &copy; All Rights Reserved.

@@ -8,10 +8,10 @@ export const NavbarItem: React.FC<{
 }> = ({ value, handleFilterCategory, active }) => {
     return (
         <li
-            className={`cursor-pointer uppercase hover:text-secondary hover:underline hover:underline-offset-4 ${
+            className={`cursor-pointer uppercase hover:text-secondary dark:hover:text-secondaryDark hover:underline hover:underline-offset-4 ${
                 active === value
-                    ? "text-secondary underline underline-offset-4"
-                    : "text-dark"
+                    ? "text-secondary dark:text-secondaryDark underline underline-offset-4"
+                    : "text-dark dark:text-light"
             }`}
             onClick={() => {
                 handleFilterCategory(value);
@@ -27,7 +27,7 @@ const ProjectsNavbar: React.FC<{
     active: string;
 }> = (props: any) => {
     return (
-        <div className="flex flex-row space-x-20 px-3 py-2 list-none ">
+        <div className="flex flex-row space-x-20 px-3 py-2 list-none">
             <NavbarItem value="all" {...props} />
             <NavbarItem value="frontend" {...props} />
             <NavbarItem value="backend" {...props} />
