@@ -7,6 +7,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoIosAlert } from "react-icons/io";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
+import TransitionEffect from "../components/TransitionEffect";
 
 function Contact() {
     const [name, setName] = useState("");
@@ -45,74 +46,83 @@ function Contact() {
                 publicKey: publicKey,
             })
             .then((response) => {
-                console.log("Correo enviado con éxito", response.status, response.text);
+                console.log(
+                    "Correo enviado con éxito",
+                    response.status,
+                    response.text
+                );
                 // setShowMessage(true);
                 // setShowValidationError(false);
                 // setModalIsOpen(true);
-              })
+            });
     };
 
     const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
     return (
-        <main className="w-full mb-16 flex flex-col items-center justify-center">
-            <Layout className="pt-16">
-                <AnimatedText text="Contact me" className="text-secondary dark:text-secondaryDark lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
-                <h4 className="text-black text-2xl text-center mb-10">
-                    Get in touch!
-                </h4>
-                <div className="flex flex-row gap-24 w-full">
-                    <div className="w-full flex flex-col items-center justify-center">
-                        <article className="flex flex-col items-center bg-light dark:bg-dark text-dark dark:text-light hover:text-light dark:hover:text-dark text-center rounded-lg border-2 border-secondary dark:border-secondaryDark px-5 py-4 w-3/5 my-5 hover:bg-secondary dark:hover:bg-secondaryDark transition-all duration-300 ease-in-out group">
-                            <MdOutlineEmail className="size-5" />
-                            <h4 className="font-medium text-lg text-dark dark:text-light group-hover:text-light dark:group-hover:text-dark my-2">
-                                Email
-                            </h4>
-                            <h5 className="text-dark dark:text-light  text-base group-hover:text-light dark:group-hover:text-dark my-1">
-                                tatiana.sanchez.sanin@gmail.com
-                            </h5>
-                            <a
-                                href="mailto:tatiana.sanchez.sanin@gmail.com"
-                                className="text-secondary dark:text-secondaryDark font-medium hover:underline hover:underline-offset-2 group-hover:text-light dark:group-hover:text-dark"
-                                target="_blank"
-                            >
-                                Send a message
-                            </a>
-                        </article>
-                        <article className="flex flex-col items-center bg-light dark:bg-dark text-dark dark:text-light hover:text-light dark:hover:text-dark text-center rounded-lg border-2 border-secondary dark:border-secondaryDark px-5 py-4 w-3/5 my-5 hover:bg-secondary dark:hover:bg-secondaryDark transition-all duration-300 ease-in-out group">
-                            <FaLinkedin className="size-5" />
-                            <h4 className="font-medium text-lg text-dark dark:text-light group-hover:text-light dark:group-hover:text-dark my-2">
-                                LinkedIn
-                            </h4>
-                            <h5 className="text-dark dark:text-light  text-base group-hover:text-light dark:group-hover:text-dark my-1">
-                                /tatiana-sanchez-sanin
-                            </h5>
-                            <a
-                                href="https://www.linkedin.com/in/tatiana-sanchez-sanin/"
-                                className="text-secondary dark:text-secondaryDark font-medium hover:underline hover:underline-offset-2 group-hover:text-light dark:group-hover:text-dark"
-                                target="_blank"
-                            >
-                                Send a message
-                            </a>
-                        </article>
-                        <article className="flex flex-col items-center bg-light dark:bg-dark text-dark dark:text-light hover:text-light dark:hover:text-dark text-center rounded-lg border-2 border-secondary dark:border-secondaryDark px-5 py-4 w-3/5 my-5 hover:bg-secondary dark:hover:bg-secondaryDark transition-all duration-300 ease-in-out group">
-                            <FaGithub className="size-5" />
-                            <h4 className="font-medium text-lg text-dark dark:text-light group-hover:text-light dark:group-hover:text-dark my-2">
-                                Github
-                            </h4>
-                            <h5 className="text-dark dark:text-light  text-base group-hover:text-light dark:group-hover:text-dark my-1">
-                                /TatianaSanchez01
-                            </h5>
-                            <a
-                                href="https://github.com/TatianaSanchez01"
-                                className="text-secondary dark:text-secondaryDark font-medium hover:underline hover:underline-offset-2 group-hover:text-light dark:group-hover:text-dark"
-                                target="_blank"
-                            >
-                                Send a message
-                            </a>
-                        </article>
-                    </div>
-                    {/* <form
+        <>
+            <TransitionEffect />
+            <main className="w-full mb-16 flex flex-col items-center justify-center">
+                <Layout className="pt-16">
+                    <AnimatedText
+                        text="Contact me"
+                        className="text-secondary dark:text-secondaryDark lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+                    />
+                    <h4 className="text-black text-2xl text-center mb-10">
+                        Get in touch!
+                    </h4>
+                    <div className="flex flex-row gap-24 w-full">
+                        <div className="w-full flex flex-col items-center justify-center">
+                            <article className="flex flex-col items-center bg-light dark:bg-dark text-dark dark:text-light hover:text-light dark:hover:text-dark text-center rounded-lg border-2 border-secondary dark:border-secondaryDark px-5 py-4 w-3/5 my-5 hover:bg-secondary dark:hover:bg-secondaryDark transition-all duration-300 ease-in-out group">
+                                <MdOutlineEmail className="size-5" />
+                                <h4 className="font-medium text-lg text-dark dark:text-light group-hover:text-light dark:group-hover:text-dark my-2">
+                                    Email
+                                </h4>
+                                <h5 className="text-dark dark:text-light  text-base group-hover:text-light dark:group-hover:text-dark my-1">
+                                    tatiana.sanchez.sanin@gmail.com
+                                </h5>
+                                <a
+                                    href="mailto:tatiana.sanchez.sanin@gmail.com"
+                                    className="text-secondary dark:text-secondaryDark font-medium hover:underline hover:underline-offset-2 group-hover:text-light dark:group-hover:text-dark"
+                                    target="_blank"
+                                >
+                                    Send a message
+                                </a>
+                            </article>
+                            <article className="flex flex-col items-center bg-light dark:bg-dark text-dark dark:text-light hover:text-light dark:hover:text-dark text-center rounded-lg border-2 border-secondary dark:border-secondaryDark px-5 py-4 w-3/5 my-5 hover:bg-secondary dark:hover:bg-secondaryDark transition-all duration-300 ease-in-out group">
+                                <FaLinkedin className="size-5" />
+                                <h4 className="font-medium text-lg text-dark dark:text-light group-hover:text-light dark:group-hover:text-dark my-2">
+                                    LinkedIn
+                                </h4>
+                                <h5 className="text-dark dark:text-light  text-base group-hover:text-light dark:group-hover:text-dark my-1">
+                                    /tatiana-sanchez-sanin
+                                </h5>
+                                <a
+                                    href="https://www.linkedin.com/in/tatiana-sanchez-sanin/"
+                                    className="text-secondary dark:text-secondaryDark font-medium hover:underline hover:underline-offset-2 group-hover:text-light dark:group-hover:text-dark"
+                                    target="_blank"
+                                >
+                                    Send a message
+                                </a>
+                            </article>
+                            <article className="flex flex-col items-center bg-light dark:bg-dark text-dark dark:text-light hover:text-light dark:hover:text-dark text-center rounded-lg border-2 border-secondary dark:border-secondaryDark px-5 py-4 w-3/5 my-5 hover:bg-secondary dark:hover:bg-secondaryDark transition-all duration-300 ease-in-out group">
+                                <FaGithub className="size-5" />
+                                <h4 className="font-medium text-lg text-dark dark:text-light group-hover:text-light dark:group-hover:text-dark my-2">
+                                    Github
+                                </h4>
+                                <h5 className="text-dark dark:text-light  text-base group-hover:text-light dark:group-hover:text-dark my-1">
+                                    /TatianaSanchez01
+                                </h5>
+                                <a
+                                    href="https://github.com/TatianaSanchez01"
+                                    className="text-secondary dark:text-secondaryDark font-medium hover:underline hover:underline-offset-2 group-hover:text-light dark:group-hover:text-dark"
+                                    target="_blank"
+                                >
+                                    Send a message
+                                </a>
+                            </article>
+                        </div>
+                        {/* <form
                         ref={form}
                         onSubmit={handleSubmit(onSubmit)}
                         className="w-full flex flex-col"
@@ -251,9 +261,10 @@ function Contact() {
                             Send Message
                         </button>
                     </form> */}
-                </div>
-            </Layout>
-        </main>
+                    </div>
+                </Layout>
+            </main>
+        </>
     );
 }
 

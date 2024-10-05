@@ -18,7 +18,7 @@ const Details = ({
     return (
         <li
             ref={ref}
-            className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between"
+            className="my-8 first:mt-0 last:mb-0 w-[70%] md:w-[80%] mx-auto flex flex-col items-center justify-between"
         >
             <ListIcon reference={ref} />
             <motion.div
@@ -53,10 +53,10 @@ const Education = () => {
             <h2 className="font-bold text-8xl mb-32 w-full text-center text-dark dark:text-light md:text-6xl lg:mb-28 md:mb-12">
                 Education
             </h2>
-            <div ref={ref} className="w-[75%] mx-auto relative ">
+            <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
                 <motion.div
                     style={{ scaleY: scrollYProgress }}
-                    className="absolute left-9 top-0 w-1 h-full bg-dark dark:bg-light origin-top"
+                    className="absolute left-9 top-0 w-1 h-full bg-dark dark:bg-light origin-top md:w-[2px] md:left-[30px] xs:left-[20px]"
                 />
                 <ul className="w-full flex flex-col items-start justify-between ml-4">
                     {educationList.map((educationItem, index) => {
