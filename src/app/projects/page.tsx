@@ -27,7 +27,7 @@ function Projects() {
     return (
         <main className="w-full mb-16 flex flex-col items-center justify-center">
             <Layout className="pt-16">
-                <AnimatedText text="Projects" className="text-secondary dark:text-secondaryDark" />
+                <AnimatedText text="Projects" className="text-secondary dark:text-secondaryDark lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
                 <p className="my-12 font-medium text-xl text-dark dark:text-light">
                     This section showcases a collection of my projects, each
                     demonstrating different skills and technologies. Whether
@@ -43,7 +43,7 @@ function Projects() {
                         active={active}
                     />
                 </nav>
-                <div className="grid grid-cols-12 gap-24 relative">
+                <div className="grid grid-cols-12 gap-24 md:gap-3 lg:gap-5 relative">
                     {projects.map((projectItem, index) => {
                         return (
                             <FeaturedProject

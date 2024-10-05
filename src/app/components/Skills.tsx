@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
     return (
-        <div className="my-64">
-            <h2 className="font-bold text-8xl mb-32 w-full text-center text-dark dark:text-light">
+        <div className="my-64 lg:my-48 md:my-18">
+            <h2 className="font-bold text-8xl mb-32 w-full text-center text-dark dark:text-light md:text-6xl lg:mb-28 md:mb-12">
                 Skills
             </h2>
-            <div className="grid grid-cols-2 gap-10">
-                <div className="col-span-1 ">
+            <div className="grid grid-cols-2 gap-10 md:grid-cols-1">
+                <div className="col-span-1 md:mb-12">
                     <h4 className="text-center font-semibold text-2xl mb-5 text-dark dark:text-light">
                         Languages & Frameworks
                     </h4>

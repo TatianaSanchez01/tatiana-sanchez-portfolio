@@ -57,8 +57,8 @@ function Contact() {
     return (
         <main className="w-full mb-16 flex flex-col items-center justify-center">
             <Layout className="pt-16">
-                <AnimatedText text="Contact me" />
-                <h4 className="text-secondary/90 dark:text-secondaryDark/90 text-2xl text-center mb-10">
+                <AnimatedText text="Contact me" className="text-secondary dark:text-secondaryDark lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
+                <h4 className="text-black text-2xl text-center mb-10">
                     Get in touch!
                 </h4>
                 <div className="flex flex-row gap-24 w-full">

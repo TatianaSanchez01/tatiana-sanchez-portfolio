@@ -42,7 +42,7 @@ const FeaturedProject = ({
         <>
             <article
                 ref={cardRef}
-                className="col-span-12 sm:col-span-4 bg-light dark:bg-dark border-2 border-solid border-dark dark:border-light p-5 rounded-lg shadow-lg drop-shadow-lg"
+                className=" col-span-4 2xl:col-span-6 xl:col-span-12 bg-light dark:bg-dark border-2 border-solid border-dark dark:border-light p-5 rounded-lg shadow-lg drop-shadow-lg"
             >
                 <div className="h-full ">
                     <div className="h-5/6 flex items-center justify-center">

@@ -49,8 +49,8 @@ const Education = () => {
     });
 
     return (
-        <div className="my-64">
-            <h2 className="font-bold text-8xl mb-32 w-full text-center text-dark dark:text-light">
+        <div className="my-64 lg:my-48 md:my-18">
+            <h2 className="font-bold text-8xl mb-32 w-full text-center text-dark dark:text-light md:text-6xl lg:mb-28 md:mb-12">
                 Education
             </h2>
             <div ref={ref} className="w-[75%] mx-auto relative ">

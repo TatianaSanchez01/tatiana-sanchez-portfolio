@@ -3,12 +3,12 @@ import Link from "next/link";
 import Layout from "./utils/Layout";
 const Footer = () => {
     return (
-        <footer className="w-full border-t-2 border-solid border-dark dark:border-light font-medium text-lg text-dark dark:text-light ">
-            <Layout className="py-10 flex items-center justify-between ">
+        <footer className="w-full border-t-2 border-solid border-dark dark:border-light font-medium text-lg text-dark dark:text-light sm:text-base ">
+            <Layout className="py-10 flex items-center justify-between lg:flex-col lg:py-6">
                 <span>
                     {new Date().getFullYear()} &copy; All Rights Reserved.
                 </span>
-                <div className="flex items-center">
+                <div className="flex items-center lg:py:2">
                     Build with{" "}
                     <span className="text-primary text-2xl px-1">&#9825;</span>
                     by&nbsp;{" "}
