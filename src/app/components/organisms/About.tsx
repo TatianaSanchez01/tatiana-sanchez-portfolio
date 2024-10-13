@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import AnimatedText from "./utils/AnimatedText";
-import profilePic from "../../../public/images/profile/developer-pic-2.jpg";
+import AnimatedText from "../atoms/AnimatedText";
+import profilePic from "../../../../public/images/profile/developer-pic-2.jpg";
 const AboutComponent = () => {
     return (
         <>

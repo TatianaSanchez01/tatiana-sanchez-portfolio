@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import skillsList from "../../../public/data/skills.json";
+import skillsList from "../../../../public/data/skills.json";
 import { motion } from "framer-motion";
 
 const Skills = () => {
