@@ -1,11 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import Layout from "../components/atoms/Layout";
-import AnimatedText from "../components/atoms/AnimatedText";
-import FeaturedProject, { Category } from "../components/molecules/ProjectCard";
-import { projectsList } from "../../../public/data/projectsList";
-import ProjectsNavbar from "../components/molecules/ProjectsNavbar";
-import TransitionEffect from "../components/atoms/TransitionEffect";
+import Layout from "@/app/components/atoms/Layout";
+import AnimatedText from "@/app/components/atoms/AnimatedText";
+import FeaturedProject, { Category } from "@/app/components/molecules/ProjectCard";
+import { projectsList } from "@/../public/data/projectsList";
+import ProjectsNavbar from "@/app/components/molecules/ProjectsNavbar";
+import TransitionEffect from "@/app/components/atoms/TransitionEffect";
 
 function Projects() {
     const [projects, setProjects] = useState(projectsList);

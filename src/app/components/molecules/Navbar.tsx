@@ -7,6 +7,8 @@ import {
     GithubIcon,
     SunIcon,
     MoonIcon,
+    SpanishIcon,
+    EnglishIcon,
 
 } from "../atoms/Icons";
 import useThemeSwitcher from "../hooks/useThemeSwitcher";
@@ -83,6 +85,22 @@ const Navbar = () => {
                     >
                         <GithubIcon />
                     </motion.a>
+
+                    <motion.button
+                        whileHover={{ y: -2 }}
+                        whileTap={{ scale: 0.9 }}
+                        className="w-6 mr-3"
+                    >
+                        <SpanishIcon />
+                    </motion.button>
+
+                    <motion.button
+                        whileHover={{ y: -2 }}
+                        whileTap={{ scale: 0.9 }}
+                        className="w-6 mr-3"
+                    >
+                        <EnglishIcon />
+                    </motion.button>
 
                     {mounted && (
                         <button

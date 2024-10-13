@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import Layout from "../components/atoms/Layout";
-import AboutComponent from "../components/organisms/About";
-import Skills from "../components/organisms/Skills";
-import Experience from "../components/organisms/Experience";
-import Education from "../components/organisms/Education";
-import TransitionEffect from "../components/atoms/TransitionEffect";
+import Layout from "@/app/components/atoms/Layout";
+import AboutComponent from "@/app/components/organisms/About";
+import Skills from "@/app/components/organisms/Skills";
+import Experience from "@/app/components/organisms/Experience";
+import Education from "@/app/components/organisms/Education";
+import TransitionEffect from "@/app/components/atoms/TransitionEffect";
 
 const About = () => {
     return (

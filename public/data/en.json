@@ -1,0 +1,23 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "main": {
+        "title": "Good design adds value faster than it adds cost.",
+        "description": "¡Hola! Soy Tatiana, una apasionada estudiante de Ingeniería de Sistemas en la Universidad de Antioquia, Colombia. Me enfoco en el desarrollo de software y desarrollo web, y me encanta transformar ideas en aplicaciones innovadoras. Sin embargo, no solo se trata del código; también me fascina crear experiencias de usuario dinámicas e interactivas que resuenen con las personas.",
+        "resumeButton": "Hoja de Vida",
+        "contactButton": "Contáctame",
+        "resumeLink": "/HV_TatianaSanchez.pdf"
+    },
+    "about" : {
+        "title": "Turning ideas into innovations",
+        "subtitle1": "Passion and Drive",
+        "text1": "At my core, I'm a lifelong learner, constantly pushing myself to expand my skillset and stay ahead of the curve in the ever-evolving world of software development. I believe in the power of collaboration and thrive in team environments where we can brainstorm, innovate, and bring our collective expertise to life.",
+        "subtitle2": "Skills and Expertise",
+        "text2": "I am highly motivated and results-oriented professional with a talent for creative problem-solving and teamwork. I thrive in environments where I can take initiative, tackle challenges head-on, and contribute to organizational goals. My strengths include:",
+        "text2_item1_title": ""
+    }
+}

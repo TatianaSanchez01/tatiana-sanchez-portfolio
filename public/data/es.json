@@ -1,0 +1,15 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "about": "Acerca de",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "main": {
+        "title": "Un buen diseño agrega valor más de lo que agrega costo.",
+        "description": "Hi there! I'm Tatiana, a passionate computer science student at Universidad de Antioquia, Colombia. My focus is on software and web development, and I thrive on transforming ideas into innovative applications. I'm not just about the code, though; I'm equally fascinated by crafting dynamic and interactive user experiences that resonate with people.",
+        "resumeButton": "Resume",
+        "contactButton": "Contact",
+        "resumeLink": "/TatianaSanchez_CV.pdf"
+    }
+}
