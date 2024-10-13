@@ -1,69 +1,17 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import Logo from "../atoms/Logo";
-import { LinkedinIcon, GithubIcon, SunIcon, MoonIcon } from "../atoms/Icons";
+import {
+    LinkedinIcon,
+    GithubIcon,
+    SunIcon,
+    MoonIcon,
+
+} from "../atoms/Icons";
 import useThemeSwitcher from "../hooks/useThemeSwitcher";
-import { useRouter } from "next/navigation";
-
-const CustomLink = ({
-    href,
-    title,
-    className = "",
-}: {
-    href: string;
-    title: string;
-    className?: string;
-}) => {
-    const pathName = usePathname();
-    const cleanHref = href.split("?")[0];
-
-    return (
-        <Link href={href} className={`${className} relative group`}>
-            {title}
-            <span
-                className={`h-[1px] inline-block w-0 bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease-in-out duration-300 ${
-                    pathName === cleanHref ? "w-full" : "w-0"
-                } dark:bg-light`}
-            >
-                &nbsp;
-            </span>
-        </Link>
-    );
-};
-
-const CustomMobileLink = ({
-    href,
-    title,
-    className = "",
-    toggle,
-}: {
-    href: string;
-    title: string;
-    className?: string;
-    toggle: () => void;
-}) => {
-    const router = useRouter();
-    const handleClick = () => {
-        toggle();
-        router.push(href);
-    };
-    return (
-        <button
-            className={`${className} relative group text-light dark:text-dark my-2`}
-            onClick={handleClick}
-        >
-            {title}
-            <span
-                className={`h-[1px] inline-block w-0 bg-light absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease-in-out duration-300 dark:bg-dark`}
-            >
-                {""}
-            </span>
-        </button>
-    );
-};
+import CustomMobileLink from "../atoms/CustomMobileLink";
+import CustomLink from "../atoms/CustomLink";
 
 const Navbar = () => {
     const [mode, setMode] = useThemeSwitcher();
@@ -135,6 +83,7 @@ const Navbar = () => {
                     >
                         <GithubIcon />
                     </motion.a>
+
                     {mounted && (
                         <button
                             className={`ml-3 flex items-center justify-center rounded-full p-1 ${

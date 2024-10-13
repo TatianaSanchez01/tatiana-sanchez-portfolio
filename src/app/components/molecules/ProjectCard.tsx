@@ -7,6 +7,16 @@ import ReactDOM from "react-dom";
 
 export type Category = "frontend" | "backend" | "fullstack";
 
+interface Props {
+    category: string[];
+    technologies: string[];
+    title: string;
+    summary: string;
+    img: StaticImageData;
+    link: string;
+    github: string;
+}
+
 const FeaturedProject = ({
     category,
     technologies,
@@ -15,15 +25,7 @@ const FeaturedProject = ({
     img,
     link,
     github,
-}: {
-    category: string[];
-    technologies: string[];
-    title: string;
-    summary: string;
-    img: StaticImageData;
-    link: string;
-    github: string;
-}) => {
+}: Props) => {
     const [showDetail, setShowDetail] = useState(false);
     const cardRef = useRef(null);
 

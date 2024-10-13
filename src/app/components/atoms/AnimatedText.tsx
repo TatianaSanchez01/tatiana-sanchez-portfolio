@@ -12,13 +12,15 @@ const singleWord = {
     animate: { opacity: 1, y: 0, transition: { duration: 1 } },
 };
 
+interface Props {
+    text: string;
+    className?: string;
+}
+
 const AnimatedText = ({
     text,
     className = "",
-}: {
-    text: string;
-    className?: string;
-}) => {
+}: Props) => {
     return (
         <div className="w-full mx-auto py-2 flex items-center justify-center text-center overflow-hidden sm:py-0 ">
             <motion.h1
