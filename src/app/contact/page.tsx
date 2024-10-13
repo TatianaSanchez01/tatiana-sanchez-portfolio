@@ -1,13 +1,13 @@
 "use client";
 import React, { useRef, useState } from "react";
-import Layout from "../components/utils/Layout";
-import AnimatedText from "../components/utils/AnimatedText";
+import Layout from "../components/atoms/Layout";
+import AnimatedText from "../components/atoms/AnimatedText";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoIosAlert } from "react-icons/io";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
-import TransitionEffect from "../components/TransitionEffect";
+import TransitionEffect from "../components/atoms/TransitionEffect";
 
 function Contact() {
     const [name, setName] = useState("");

@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import Logo from "./utils/Logo";
-import { LinkedinIcon, GithubIcon, SunIcon, MoonIcon } from "./utils/Icons";
-import useThemeSwitcher from "./hooks/useThemeSwitcher";
+import Logo from "../atoms/Logo";
+import { LinkedinIcon, GithubIcon, SunIcon, MoonIcon } from "../atoms/Icons";
+import useThemeSwitcher from "../hooks/useThemeSwitcher";
 import { useRouter } from "next/navigation";
 
 const CustomLink = ({
@@ -51,7 +51,10 @@ const CustomMobileLink = ({
         router.push(href);
     };
     return (
-        <button className={`${className} relative group text-light dark:text-dark my-2`} onClick={handleClick}>
+        <button
+            className={`${className} relative group text-light dark:text-dark my-2`}
+            onClick={handleClick}
+        >
             {title}
             <span
                 className={`h-[1px] inline-block w-0 bg-light absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease-in-out duration-300 dark:bg-dark`}
@@ -154,7 +157,11 @@ const Navbar = () => {
             </div>
 
             {isOpen ? (
-                <motion.div initial={{scale:0, opacity:0, x:"-50%", y: "-50%"}} animate={{scale:1, opacity:1}} className="min-w-[70vw] flex flex-col justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32">
+                <motion.div
+                    initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
+                    animate={{ scale: 1, opacity: 1 }}
+                    className="min-w-[70vw] flex flex-col justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32"
+                >
                     <nav className="flex items-center flex-col justify-center">
                         <CustomMobileLink
                             href="/"

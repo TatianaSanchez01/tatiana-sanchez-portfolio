@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Layout from "./utils/Layout";
+import Layout from "../atoms/Layout";
 const Footer = () => {
     return (
         <footer className="w-full border-t-2 border-solid border-dark dark:border-light font-medium text-lg text-dark dark:text-light sm:text-base ">
