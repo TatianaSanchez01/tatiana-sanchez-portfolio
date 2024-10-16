@@ -87,8 +87,7 @@ const AboutComponent = () => {
                     <p className="font-medium text-dark dark:text-light text-lg">
                         I&apos;m always eager to discuss new projects,
                         collaborate with creative minds, and learn from
-                        experienced professionals. Reach out to me through
-                        [Contact information with icons] and let&apos;s explore
+                        experienced professionals. Reach out and let&apos;s explore
                         the possibilities together.
                     </p>
                 </div>
