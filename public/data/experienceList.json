@@ -1,11 +1,19 @@
 [
     {
-        "position": "Apprentice in Productive Stage",
+        "position": "Professional in Training",
         "company": "SETI S.A.S",
-        "time": "March 2024 - Now",
+        "time": "September 2024 - Now",
         "address": "Remote",
         "description":
-            "📚 Subjects: HTML, CSS, JavaScript, SQL and NoSQL Databases, Algorithms and Control Structures, Java SE, Git/GitHub.\n\nWhat do we do? 🌐 In this exciting tutoring program, I have the privilege of supporting students at EAFIT University on their programming learning journey. My goal is to help clarify doubts, foster understanding of key concepts, and provide practical guidance in a variety of languages and technologies fundamental in the programming world.\n\nHow do I help? 💡 My focus is on clarity and accessibility. I work closely with students to identify their challenges and design effective solutions. From problem-solving in algorithms to creating impressive web projects, I'm here to guide and support at every step of the way."
+            "As a dedicated professional in training, I am committed to honing my skills and preparing for future challenges. My passion for learning new programming languages drives me to continually expand my expertise. I am currently delving into Groovy and Java, while also maintaining my proficiency in Angular and NestJS. By leveraging TypeScript and CSS, I am enhancing my ability to create robust and efficient web applications."
+    },
+    {
+        "position": "Apprentice in Productive Stage",
+        "company": "SETI S.A.S",
+        "time": "March 2024 - August 2024",
+        "address": "Remote",
+        "description":
+            "In my role as a learner, I had the opportunity to immerse myself in a real development environment and put into practice the knowledge acquired during my training. Through the Scrum methodology, I had the chance to experience an iterative and collaborative development process. I participated in all stages of the project, from the definition of requirements to the final delivery.\n\nThis experience allowed me to quickly learn new technologies and tools, such as Angular and NestJS, and develop a solid understanding of software engineering principles. I am proud to have contributed to a successful project and to have grown significantly as a professional."
     },
     {
         "position": "Programming Mentor",
