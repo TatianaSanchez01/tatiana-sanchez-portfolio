@@ -1,3 +1,11 @@
+## My Personal Portfolio
+
+This repository serves as a showcase of my technical skills, projects, and experiences. I'm passionate about Software and Web Developing and dedicated to creating innovative solutions.
+
+Feel free to explore my projects, ask questions, or connect with me. Let's build something great together!
+
+##
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
